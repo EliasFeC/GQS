@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+    static int diagonalMaior;
+    static int diagonalMenor;
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Digite a Diagonal maior" );
+        diagonalMaior = scanner.nextInt();
+
+        System.out.println("Digite a Diagonal menor");
+        diagonalMenor = scanner.nextInt();
+        int area = ((diagonalMaior * diagonalMenor) /2 );
+
+
+        System.out.println(area);
+
+
+    }
+}
